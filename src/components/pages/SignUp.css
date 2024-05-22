@@ -1,0 +1,85 @@
+/* SignUp.css */
+
+.sign-up {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('/public/images/img-8.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    font-size: 24px;
+    text-align: center;
+  }
+  .login-form-container{
+    margin-bottom: 370px;
+  }
+  .login-text-container,
+  .register-text-container{
+    font-size: 16px;
+    color: #000000;
+  }
+
+  .registration-form-container {
+    margin-top: 100px; /* Устанавливаем отступ сверху */
+    max-width: 600px; /* Увеличиваем максимальную ширину формы */
+    width: 100%;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    color: #000000;
+  }
+
+  .registration-form h2 {
+    margin-bottom: 20px;
+    font-size: 32px;
+    text-align: center;
+    color: #333;
+  }
+
+  .form-input {
+    width: calc(100% - 20px); /* Увеличиваем ширину поля ввода */
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+
+  .form-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  .form-button:hover {
+    background-color: #0056b3;
+  }
+
+  .form-label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #333; /* Цвет текста */
+    font-size: 14px; 
+    margin-right: 10px;
+  }
+
+  .form-checkbox-container {
+    
+    justify-content: flex-start;
+    margin-right: 10px;
+    
+  }
+
+  .form-checkbox {
+    margin-right: 10px;
+    cursor: pointer;
+  }

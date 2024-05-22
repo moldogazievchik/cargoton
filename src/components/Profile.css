@@ -1,0 +1,57 @@
+/* Profile.css */
+.profile-container {
+  font-size: 24px;
+  font-weight: bold;
+  color: #ffffff; /* Цвет текста белый */
+  background-image: url('img10.jpg');
+  background-size: cover;
+  background-position: center; 
+  padding: 150px; /* Добавляем немного внутреннего отступа для контейнера */
+}
+
+/* Контейнер с контентом профиля */
+.profile-content {
+  font-size: 18px;
+  font-weight: bold;
+  color: #000000; /* Цвет текста черный */
+  background-color: rgba(255, 255, 255, 0.7); /* Задаем полупрозрачный белый цвет фона */
+  padding: 20px; /* Добавляем отступы для контента */
+  border-radius: 10px; /* Закругляем углы контейнера */
+  overflow: auto; /* Добавляем прокрутку при необходимости */
+}
+
+/* Кнопка выхода */
+.logout-button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.logout-button:hover {
+  background-color: #0056b3;
+}
+
+/* Стили для таблицы */
+.shipments-table {
+  width: 100%;
+  max-height: 400px; /* Максимальная высота таблицы */
+  overflow-y: auto; /* Добавляем вертикальную прокрутку при необходимости */
+  border-collapse: collapse; /* Объединяем границы ячеек */
+  font-size: 16px; /* Уменьшаем размер шрифта в таблице */
+}
+
+.shipments-table th,
+.shipments-table td {
+  padding: 6px; /* Уменьшаем внутренние отступы ячеек */
+  text-align: left;
+  background-color: #1111119a;/* Цвет фона для заголовков */
+  border-bottom: 1px solid #ddd; /* Граница снизу для строк */
+}
+
+.shipments-table th {
+  background-color: #1111119a; /* Цвет фона для заголовков */
+  color: #000000; /* Цвет текста для заголовков */
+}

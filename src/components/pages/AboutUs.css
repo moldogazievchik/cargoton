@@ -1,0 +1,25 @@
+.aboutus-description {
+  padding: 20px;
+  margin-top: 20px;
+  text-align: justify; /* Добавляем выравнивание по краю */
+}
+
+.aboutus-description p {
+  margin-bottom: 10px;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.aboutus-description ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.aboutus-description li {
+  margin-bottom: 5px;
+}
+
+.aboutus-description h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
